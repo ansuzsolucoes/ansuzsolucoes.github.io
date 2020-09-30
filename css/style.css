@@ -1,5 +1,4 @@
-/* Esse código é só para tirar as margens */
-body,html,.wrapper{margin:0;padding:0;}
+
 
 .wrapper {
   /* O elemento precisa ter uma altura definida para o efeito
@@ -105,8 +104,6 @@ body,html,.wrapper{margin:0;padding:0;}
 
   color: white;
   text-shadow: 0 0 5px #000;
-  font-size: 20px;
-  text-align: center;
 }
 
 /* Em nosso pseudo-elemento, configuramos a imagem de fundo,
@@ -146,7 +143,7 @@ mas não indicamos qual será a imagem.
     z-index: 1;
   }
   .banner {
-    top: 0px;
+    top: 8em;
     width: 100%;
     max-height: 80%;
     padding: 20px 0;
@@ -155,16 +152,13 @@ mas não indicamos qual será a imagem.
     color: white;
     text-shadow: 0 0 5px #000;
     font-size: 20px;
-    text-align: left;
   }
   .logo {
     width: 100%;
     height: 100%;
     padding: 0px;
   }
-  .right-text {
-    text-align: right;
-  }
-  .left-text {
-      text-align: left;
+  .sem-margem {
+    margin: 0px;
+    padding: 0px;
   }
