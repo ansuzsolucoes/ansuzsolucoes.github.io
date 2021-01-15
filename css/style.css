@@ -55,3 +55,15 @@ a, a:hover, a:link, a:visited {
   width: 10rem;
   height: 10rem;
 }
+
+@media (max-width: 600px){
+  p{
+    font-size: 1.2rem;
+  }
+  .titulo{
+    font-size: 5rem;
+  }
+  .card{
+    margin-top: 1rem;
+  }
+}
