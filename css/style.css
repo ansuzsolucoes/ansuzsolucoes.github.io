@@ -23,6 +23,12 @@ p{
   font-size: 1.8rem;
 }
 
+.fale-img {
+  max-width: 15rem;
+}
+.fale {
+  text-align: center;
+}
 .navbar-toggler {
   color: #fff;
 }
@@ -32,7 +38,9 @@ p{
   max-height: 5rem;
   right: 0px;
 }
-
+.logo-p {
+  max-width: 2rem;
+}
 .container-fluid{
   padding: 0px;
   margin: 0px;
