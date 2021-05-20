@@ -2,7 +2,7 @@
   "name": "ansuz",
   "version": "0.1.0",
   "private": true,
-  "license": "MIT",
+  "license": "./LICENSE",
   "homepage": "https://ansuzsolucoes.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
