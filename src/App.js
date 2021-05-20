@@ -1,12 +1,14 @@
 import './App.css';
+import Home from "./pages/Home.js"
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
+    <>
+      <CssBaseline />
+      <Home/>
+      
+    </>
   );
 }
 
