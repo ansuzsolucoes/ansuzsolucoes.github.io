@@ -104,8 +104,14 @@ export const ContainerCentralizado = styled.div`
 `
 export const ContainerColunas = styled.div`
     display: inline-grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 7vw;
+    grid-template-columns: ${props => props.colunas || 'auto '.repeat(3)};
+    grid-column-gap: ${props => props.columnGap || '7vw'};
+    grid-row-gap: ${props => props.rowGap || '7vw'};
+`
+
+export const ContainerTexto = styled.div`
+    padding: 4vw;
+
 `
 
 export const ImgRes = styled.img`
@@ -114,19 +120,39 @@ export const ImgRes = styled.img`
 `
 
 export const Espacador = styled.hr`
-    height: 3vh;
+    height: ${props => props.height || '3vh'};
+    width: ${props => props.width || '3vh'};
     border: none;
 `
 
 export const Titulo1 = styled.h1`
     color: ${theme.palette.primary.main};
-    font-size: 5.9vw;
+    font-size: ${props => props.size || '5.9vw'};
+`
+export const Titulo2 = styled.h2`
+    color: ${theme.palette.primary.main};
+    font-size: ${props => props.size || '5.5vw'};
+    margin: 0px;
 `
 
 export const Texto = styled.p `
     color: ${theme.text.primary};
-    font-size: 4vmin;
+    font-size: ${props => props.size || '2vw'};
 `
+
+export const DivColorida = styled.div`
+    background-color: ${props => props.fundo || theme.palette.primary.main};
+    margin-top: -4px !important;
+    height: 25vw;
+    margin: 0px;
+`
+
+export const TextDivColorida = styled.h3`
+    color: ${props => props.cor || theme.palette.primary.contrastText};
+    padding-left: 4vw;
+    font-size: 4vw;
+`
+
 
 export const Endereco = styled(Link)`
 
