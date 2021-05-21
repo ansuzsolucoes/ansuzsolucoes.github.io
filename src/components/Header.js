@@ -1,4 +1,4 @@
-import {BannerImg, NavbarListContainer, HeaderButton} from "./Theme"
+import {BannerImg, NavbarListContainer} from "./Theme"
 
 
 const publico = process.env.PUBLIC_URL
@@ -8,7 +8,6 @@ export function Header() {
         <>
         <BannerImg src={publico + '/img/ansuzminimalista.png'}/>
         <NavbarListContainer>
-        <HeaderButton>Teste</HeaderButton>
         </NavbarListContainer>
         </>
     );

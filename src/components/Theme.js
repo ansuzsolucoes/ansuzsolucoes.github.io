@@ -76,7 +76,7 @@ export const BannerImg = styled.img `
 
 export const BannerText = styled.h1 `
     margin-top: 3rem;
-    font-size: 5rem;
+    font-size: 5.9vw;
     font-weight: 500;
     color:tomato;
     font-family: Cinzel , serif;
@@ -92,16 +92,42 @@ export const NavbarList = styled.li `
     padding: 2px;
 `
 export const Container = styled.div`
-    padding: 0 10% 0 10%;
+    padding: 0 10% 0 10%;    
 `
+export const ContainerFull = styled.div`
+    padding: 0 0 0 0;
+`
+export const ContainerCentralizado = styled.div`
+    text-align: center;
+    align-items: center;
+    align-content: center;
+`
+export const ContainerColunas = styled.div`
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 7vw;
+`
+
+export const ImgRes = styled.img`
+    max-width: 100%;
+    height: auto;
+`
+
 export const Espacador = styled.hr`
-    height: 2rem;
+    height: 3vh;
     border: none;
 `
+
+export const Titulo1 = styled.h1`
+    color: ${theme.palette.primary.main};
+    font-size: 5.9vw;
+`
+
 export const Texto = styled.p `
     color: ${theme.text.primary};
-    font-size: 2rem;
+    font-size: 4vmin;
 `
+
 export const Endereco = styled(Link)`
 
 `
