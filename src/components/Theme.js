@@ -7,19 +7,19 @@ export const theme = createMuiTheme({
     palette: {
         primary: {
             // light: será calculada com base em palette.primary.main,
-            main: 'rgba(245, 166, 35, 1) !important',
+            main: '#00139f !important',
             // dark: será calculada com base em palette.primary.main,
             // contrastText: será calculada para contrastar com palette.primary.main
         },
         secondary: {
             // light: será calculada com base palette.secondary.main,
-            main: '#1e2021 !important',
+            main: '#6515D1 !important',
             // dark: será calculada com base palette.secondary.main,
-            contrastText: '#ff4400 !important',
+            //contrastText: será calculada para contrastar com palette.secondary.main,
         },
         dark: {
             // light: será calculada com base em palette.primary.main,
-            main: 'rgba(0, 0, 0, 0.54) !important',
+            main: '#251638 !important',
             // dark: será calculada com base em palette.primary.main,
             // contrastText: será calculada para contrastar com palette.primary.main
         },
