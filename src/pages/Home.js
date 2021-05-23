@@ -25,9 +25,9 @@ function Home() {
             </ContainerCentralizado>
             <Espacador/>
             <ContainerColunas>
-              <ImgRes src={publico + "/img/produtoTeste.jpg"}/>
-              <ImgRes src={publico + "/img/produtoTeste.jpg"}/>
-              <ImgRes src={publico + "/img/produtoTeste.jpg"}/>
+              <ImgRes src={publico + "/img/01.png"}/>
+              <ImgRes src={publico + "/img/02.png"}/>
+              <ImgRes src={publico + "/img/03.png"}/>
             </ContainerColunas>
             <Espacador height="18vh"/>
           </ContainerFull>
@@ -39,7 +39,7 @@ function Home() {
     return(
       <>
         <ContainerFull>
-          <BannerImg src={publico+"/img/ansuzminimalista.png"}/>
+          <BannerImg src={publico+"/img/About.png"}/>
           <ContainerColunas rowGap="0px" columnGap="0px" colunas="25vw auto">
             <DivColorida>
               <TextDivColorida>Sobre a Ansuz</TextDivColorida>
@@ -60,24 +60,22 @@ function Home() {
     return(
       <>
         <ContainerFull>
-          <ContainerColunas columnGap="5vw" rowGap="0" colunas="auto auto">
-            <div>
-              <ImgRes src={publico + "/img/produtoTeste.jpg"}/>
-            </div>
+          <ContainerColunas columnGap="5vw" columnGap="0" colunas="58vw auto">
+              <ImgRes width="100%" src={publico + "/img/Listed.png"}/>
           <Container>
-            <Titulo2 size="3vw">Novas Oportunidades</Titulo2>
-            <Texto size="2.6vmin">
+            <Titulo2 size="2.7vw">Novas Oportunidades</Titulo2>
+            <Texto size="1.6vw">
               Com um site bem feito o cliente te encontra mais fácil,<br/>
               sabe o que você oferece e sempre lembra de seu negócio
             </Texto>
-            <Titulo2 size="3vw">O Futuro Já Chegou</Titulo2>
-            <Texto size="2.6vmin">
+            <Titulo2 size="2.7vw">O Futuro Já Chegou</Titulo2>
+            <Texto size="1.6vw">
               Vemos hoje que um negócio ocm um bom suporte online<br/>
               não sofre com a crise, use a tecnologia para ampliar seus<br/>
               horizontes e encontrar mais clientes
             </Texto>
-            <Titulo2 size="3vw">Esteja em todo lugar</Titulo2>
-            <Texto size="2.6vmin">
+            <Titulo2 size="2.7vw">Esteja em todo lugar</Titulo2>
+            <Texto size="1.6vw">
               Esteja na mão de todos, o Smartphone está na mão de <br/>
               praticamente todos os brasileiros, esteja lá também,<br/>
               mostrando os seus produtos e serviços
@@ -94,7 +92,7 @@ function Home() {
     return(
       <>
         <ContainerFull>
-          <BannerImg src={publico+"/img/ansuzminimalista.png"}/>
+          <BannerImg src={publico+"/img/Contact.png"}/>
           <Espacador/>
           <ContainerCentralizado>
           <ContainerColunas rowGap="auto" columnGap="25vw" colunas="auto auto">
@@ -113,6 +111,7 @@ function Home() {
           </ContainerColunas>
           </ContainerCentralizado>
         </ContainerFull>
+        <Espacador height="15vh"/>
       </>
     )
   }
