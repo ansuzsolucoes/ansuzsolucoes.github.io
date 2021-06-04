@@ -1,10 +1,11 @@
 import "../components/Theme"
-import { BannerImg, Container, ContainerCentralizado, ContainerColunas, ContainerFull, DivColorida, Espacador, ImgRes, Texto, Titulo1, Titulo2, TextDivColorida, ContainerTexto } from "../components/Theme"
+import { BannerImg, Container, ContainerCentralizado, ContainerColunas, ContainerFull, DivColorida, Espacador, ImgRes, Texto, Titulo1, Titulo2, TextDivColorida, ContainerTexto, Img23vw, Endereco } from "../components/Theme"
 const publico = process.env.PUBLIC_URL
 function Home() {
     return (
       <>
         <OQueFazemos/>
+        <TrabalhosEParceiros/>
         <Sobre/>
         <ListaComImgGrande/>
         <Contato/>
@@ -33,6 +34,36 @@ function Home() {
           </ContainerFull>
     );
   }
+
+  export function TrabalhosEParceiros() {
+    return (
+      <>
+         <ContainerFull>
+            <Espacador/>
+            <BannerImg src={publico+"/img/clientes_e_parceiros.png"}/>
+            <Espacador/>
+            <Container>
+            <ContainerColunas>
+              
+            <Endereco href="https://serradocipoprs.com.br" target="_blank"  rel="noopener noreferrer" >
+              <Img23vw src={publico + "/img/pt_brprintpanfletos.png"}/>
+              </Endereco>
+              <Endereco href="http://profissaotransformacao.com/" target="_blank"  rel="noopener noreferrer" >
+              <Img23vw src={publico + "/img/pftr.png"}/>
+              </Endereco>
+              {/* 
+              <Img23vw src={publico + "/img/03.png"}/> 
+              */}
+              
+            </ContainerColunas>
+            </Container>
+            <Espacador height="18vh"/>
+          </ContainerFull>
+      </>
+    );
+  }
+  
+  
 
 
   export function Sobre(){

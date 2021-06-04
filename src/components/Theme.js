@@ -115,7 +115,12 @@ export const ContainerTexto = styled.div`
 `
 
 export const ImgRes = styled.img`
-    max-width: 100%;
+    max-width: 100vw;
+    height: auto;
+`
+
+export const Img23vw = styled.img`
+    max-width: 23vw;
     height: auto;
 `
 
@@ -154,6 +159,6 @@ export const TextDivColorida = styled.h3`
 `
 
 
-export const Endereco = styled(Link)`
+export const Endereco = styled.a`
 
 `
